@@ -18,7 +18,7 @@ var launched_count = 0;
     // device APIs are available
     //
     function onDeviceReady() {
-		alert("device ready");
+		alert("hi matt");
         
 		document.addEventListener("resume", onResume, false);
 		document.addEventListener("pause", onPause, false);
