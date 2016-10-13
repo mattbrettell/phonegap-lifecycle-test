@@ -3,6 +3,7 @@ var resumed_count = 0;
 var launched_count = 0;
 
     function onLoad() {
+        //EVENT LISTENER HERE
         document.addEventListener("deviceready", onDeviceReady, false);
 		console.log("device ready");
     }
